@@ -1,0 +1,56 @@
+@media only screen and (max-width:1700px) {
+    .right p,
+    h3 {
+        font-size: 18px;
+    }
+    .left ul li {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:1400px) {
+    .right {
+        width: 60%;
+        margin: 0px 10%;
+    }
+    .right p,
+    h3 {
+        font-size: 18px;
+    }
+    input[type=submit] {
+        width: 5%;
+    }
+    .left {
+        width: 20%;
+    }
+    .left ul li {
+        font-size: 12px;
+    }
+    .button {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:1023px) {
+    .right {
+        width: 60%;
+        margin: 0px 7%;
+    }
+    .right p,
+    h3 {
+        font-size: 18px;
+    }
+    input[type=text] {
+        width: 57%;
+    }
+    input[type=submit] {
+        width: 6%;
+    }
+    .left {
+        width: 15%;
+        margin: 0% 5%;
+    }
+    .button {
+        font-size: 12px;
+    }
+}
